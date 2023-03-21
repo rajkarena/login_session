@@ -3,9 +3,10 @@ $con=mysqli_connect("localhost","root","","raj");
 
 session_start();
 
-if(!isset($_POST['name']))
+if(!isset($_SESSION['name']))
 {
 		header("logout.php");
 }
 ?>
-<h1>welcome</h1>
+<h1 align="center">welcome</h1>
+<a href="logout.php"><h4 align="right">LOGOUT</h4></a>
