@@ -5,7 +5,7 @@ session_start();
 
 if(!isset($_SESSION['name']))
 {
-		header("logout.php");
+		header("location:dashbord.php");
 }
 ?>
 <h1 align="center">welcome</h1>
